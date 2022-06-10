@@ -31,14 +31,3 @@ function entrar(){
         }
     }
 }
-
-function nome_user(){
-    // encontrar uma maneira de dizer o nome do usuário ao carregar página
-    var local = location.href 
-    if(document.URL == 'bem-vindo.html'){
-        window.onload = window.alert('estou funcionando')
-    }
-    // var bv = document.getElementById('bem-vindo')
-    // bv.innerHTML += 'user'
-    // login_user
-}
